@@ -4,5 +4,5 @@ numpy==1.23.0
 nltk==3.7
 sentence-transformers==2.2.0
 streamlit==1.12.0
-langchain-google-genai==0.1.2
+langchain_google_genai==0.1.2
 python-dotenv==0.19.2
