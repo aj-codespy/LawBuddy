@@ -1,0 +1,8 @@
+faiss-cpu
+langchain
+numpy
+nltk
+sentence_transformers
+streamlit
+langchain_googel_genai
+json
