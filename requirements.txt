@@ -5,3 +5,4 @@ nltk
 sentence_transformers
 streamlit
 langchain_google_genai
+dotenv
