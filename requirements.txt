@@ -1,3 +1,4 @@
+setuptools
 faiss-cpu==1.7.2
 langchain==0.0.200
 numpy==1.23.0
