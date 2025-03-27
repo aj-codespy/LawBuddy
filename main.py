@@ -60,11 +60,3 @@ def retrieve_and_answer(query_text, index_path="faissdb.idx", chunks_file="faiss
 # result = retrieve_and_answer(query)
 # print("Answer:", result)
 
-st.title('Law Buddy: Your Personal Lawyer')
-
-st.write('Ask any Law based question and get answer within seconds!')
-
-question = st.text_input('Enter your question: ')
-
-if st.button('Enter'):
-    st.write(retrieve_and_answer(question))
