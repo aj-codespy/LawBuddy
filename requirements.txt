@@ -1,6 +1,6 @@
 faiss-cpu==1.10.0
 langchain==0.3.17
-numpy==2.2.2
+numpy==1.25.0  # Adjusted to be compatible with faiss-cpu and langchain
 nltk==3.9.1
 sentence-transformers==3.4.1
 streamlit==1.41.0
@@ -9,4 +9,7 @@ python-dotenv==1.0.1
 altair==5.5.0
 torch==2.6.0
 huggingface_hub==0.28.1
-
+flask==3.1.0
+pillow==11.1.0
+google-generativeai==0.8.4
+langchain-core==0.3.34
