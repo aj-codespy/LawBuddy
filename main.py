@@ -41,7 +41,7 @@ def answer_generation(input):
     ])
     chain = prompt | llm
     result = chain.invoke({"Question": input})
-    return result.content
+    return result
 
 def query_vector_db_with_rag(query_text, index, text_chunks, k=3):
     query_embedding = np.array(get_text_embeddings(query_text)).astype('float32').reshape(1, -1)
