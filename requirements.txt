@@ -1,15 +1,14 @@
 faiss-cpu==1.10.0
-langchain==0.3.17
-numpy==1.25.0  # Adjusted to be compatible with faiss-cpu and langchain
+numpy==1.25.0
 nltk==3.9.1
 sentence-transformers==3.4.1
-streamlit==1.41.0
-langchain_google_genai
+streamlit==1.31.1
+langchain==0.1.13
+langchain-google-genai
 python-dotenv==1.0.1
 altair==5.5.0
-torch==2.6.0
+torch==2.2.1
 huggingface_hub==0.28.1
-flask==3.1.0
+flask==3.0.2
 pillow==11.1.0
 google-generativeai
-langchain-core==0.3.34
