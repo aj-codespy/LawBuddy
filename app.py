@@ -13,6 +13,6 @@ async def async_answer(query):
 if st.button('Submit'):
     if query.strip():  
         result = asyncio.run(async_answer(query))  # Ensure it's awaited properly
-        st.write(result)
+        st.write(result.content)
     else:
         st.warning("Please enter a question before submitting.")
