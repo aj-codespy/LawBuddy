@@ -30,7 +30,7 @@ def answer_generation(input):
     llm = ChatGoogleGenerativeAI(
         model='gemini-1.5-flash',
         temperature=0,
-        api_key='AIzaSyDtB4bETfNDyvpzA_NnBKMrr56rdiOE8bQ', 
+        google_api_key='AIzaSyDtB4bETfNDyvpzA_NnBKMrr56rdiOE8bQ', 
         max_tokens=None,
         timeout=30,
         max_retries=2
