@@ -10,5 +10,5 @@ altair==5.5.0
 torch==2.2.1
 huggingface_hub==0.28.1
 flask==3.0.2
-pillow==11.1.0
+pillow
 google-generativeai
